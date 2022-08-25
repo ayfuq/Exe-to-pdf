@@ -8,7 +8,7 @@
 
 ## Important
 
-**Software is protected, obfuscated and encrypted with Military 256AES Encryption. No VMs/VPSs(RDPs) supported!
+**Software is protected, obfuscated and encrypted with Military 256AES Encryption. No VMs/VPSs(RDPs) supported!**
 
 Preview: 
 
